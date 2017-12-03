@@ -1,0 +1,73 @@
+<!-- Przygotować formularz rejestracji zawierający pola na:
+1. Imię
+2. Hasło
+3. Pola wielokrotnego wyboru na zgody marketingowe i przetwarzanie danych osobowych
+4. Pole typu select z wyborem płci m/k
+5. Pole tekstowe na dodatkowy komentarz
+6. Przycisk do wysłania formularza
+7. Każdy element formularza powinien mieć odpowiednią etykietę, po kliknięciu której pole robi się 'aktywne'
+
+-->
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formatowanie dokumentu</title>
+</head>
+
+<body>
+    <h1>Ćwiczenia z HTML5</h1>
+    <h2>Formatowanie zawartości strony</h2>
+    <p>W trakcie ćwiczeń poznamy jak używać podstawowych elementów języka HTML5 do formatowania strony WWW.</p>
+    <h3>Formularz</h3>
+    <p>Formularz pozwala użytkownikowi na interakcję na stronie. Rejestracja, logowanie, wyszukiwarka to przykłady formlarzy, w których użytkownik wprowadza dane, które są następnie przetwarzane przez serwer.</p>
+    <p>Formularz definiowany jest znacznikiem <b>&lang;form&rang;</b> wewnątrz którego dodawane są pola tekstowe, listy wyboru, przyciski.</p>
+    
+    
+    <form method="get">
+        <label for="name">Imię:</label>
+        <input type="text"
+               name="Imię"
+               id=name
+               placeholder="Imię">
+        <label for="password">Hasło:</label>
+        <input type="password"
+               name="Password"
+               id="password">
+        <input type="submit"
+               value="Send"><br>
+        <br>
+        <input type="checkbox"
+               id="consent"
+               name="zgoda[]">
+        <label for consent>Wyrażam zgodę na otrzymywanie informacji marketingowych</label><br>
+                <input type="checkbox"
+               id="consent"
+                       name="zgoda[]">
+        <label for consent>Wyrażam zgodę na ble lebelelele</label><br>
+        <br>
+        <label>Komentarz</label><br>
+        <textarea name="comment" rows="10" cols="50" placeholder="Wpisz komentarz, max. 250 znaków"></textarea><br>
+     <input type="submit"
+               value="Send"><br>
+        <br>
+        <select name="Płeć">
+        <option value="M">M</option>
+        <option value="K">K</option>
+        </select>
+        <input type="submit"
+               value="Send"><br>
+    
+    
+    
+    
+    
+    
+    
+    </form>
+
+    
+</body>
+
+</html>
