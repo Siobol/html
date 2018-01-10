@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+        <meta charset="utf-8">
+    <link rel ="stylesheet" href="style.css">
+
+<head>
+    <title>Business card</title>
+</head>
+<body>
+    <div id="me">
+        <h1>Norbert Sobolewski</h1>
+        <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/072/27d/3759f57.jpg"
+     alt="Alternatywny tekst"
+     >
+    </div>
+    <div id="content">
+    <h1>Skills</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div id="technologies">
+    <h1>Technologies</h1>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h1>Experience</h1>
+<table id="experience">
+    <tr>
+        <td><b>Company</b></td>
+        <td><b>Date</b></td>
+        <td><b>Duties</b></td>
+        </tr>
+    <tr>
+    <td>IBM</td>
+    <td>2017</td>
+    <td>Making coffee</td>
+    </tr>
+    <tr>
+    <td>Vistula</td>
+    <td>2016</td>
+    <td>Making tea</td>
+        </tr>
+    <tr>
+    <td>Microsoft</td>
+    <td>2015</td>
+    <td>Making drinks</td>
+        </tr>    
+    <tr>
+    <td></td>
+    <td></td>
+    <td>Making yerba</td>
+        </tr>
+        </table>
+    </div>
+    <div id="reccomendations">
+    <h1>Reccomendations</h1>
+        <blockquote cite="http://allegro.pl">
+        <p>I reccomend this user! - Allegro</p>
+        </blockquote>        
+        <blockquote cite="Jan Kowalski">
+        <p>My very best employee! - Jan Kowalski</p>
+        </blockquote>
+    </div>
+            <form method="get">   
+                <h1>Contact me</h1>
+        <label for="name">Name</label>   <br> 
+    <input type="text" name="name" id="name" placeholder="Enter name" size="30">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email">
+                <label for="comment">Comment</label>
+                <textarea name="comment "id="comment" placeholder="Enter your comment" rows="5">
+        </textarea>
+                <br>
+                <!--<input type="submit" value="Send">-->
+                <button type="submit">Send</button>
+                </form>
+        <br>
+    <div id="links">
+        <a href="https://www.linkedin.com/in/norbertsobolewski//" target="_blank">
+        <img src="https://image.flaticon.com/icons/svg/174/174857.svg"
+     alt="Alternatywny img"
+             style="width: 15px">
+        </a>
+            <a href="https://https://www.facebook.com/norbisob/" target="_blank">
+        <img src="https://image.flaticon.com/icons/svg/174/174848.svg"
+     alt="Alternatywny img"
+             style="width: 15px">
+        </a>   
+    </div>
+        </div>
+    </body>
+</html>
